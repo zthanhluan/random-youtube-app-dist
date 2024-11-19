@@ -1,0 +1,145 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 12px;
+  --color-text: #cfc9cb;
+  --color-text-1: #9dcbce;
+  --color-text-2: #d79fb0;
+	--color-text-3: #167975;
+	--color-bg: #282828;
+	--color-link: #6e817b;
+	--color-link-hover: #fff;
+	--page-padding: 1rem;
+}
+
+html, body {
+	width: 100vw;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	color: var(--color-text);
+	background-color: var(--color-bg);
+	font-family: "monotype-grotesque", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+	padding: var(--page-padding);
+	display: grid;
+	position: relative;
+	font-size: clamp(1.5rem, 7vw, 3.5rem);
+}
+
+.hidden {
+	width: 0;
+	height: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.content--full {
+	min-height: 4vh;
+	display: grid;
+}
+
+.content h2 {
+	margin: 0;
+	line-height: 0.1;
+	align-self: center;
+}
+
+.font-1 {
+	font-family: "anisette-std", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.font-2 {
+	font-family: "the-seasons", sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.font-2-2 {
+	font-family: "the-seasons", sans-serif;
+	font-weight: 50;
+}
+
+.font-2-1 {
+	font-family: "the-seasons", sans-serif;
+	font-weight: 1;
+}
+
+.start {
+	justify-self: start;
+}
+
+.end {
+	justify-self: end;
+}
+
+.center {
+	justify-self: center;
+}
+
+.spaced {
+	margin: 1vh auto;
+}
+
+.size-small {
+	font-size: clamp(1rem, 3vw, 2rem);
+}
+
+.size-small-1 {
+	font-size: clamp(.8rem, 1.3vw, 1.3rem);
+}
+
+.size-medium {
+	font-size: clamp(1.75rem, 15vw, 10rem);
+}
+
+.size-large {
+	font-size: clamp(2rem,16vw,16rem);
+}
+
+.size-xlarge {
+	font-size: clamp(2rem,22vw,20rem);
+}
+
+.color-1 {
+	color: var(--color-text-1);
+}
+
+.color-2 {
+	color: var(--color-text-2);
+}
+
+.color-3 {
+	color: var(--color-text-3);
+}
+
+.blendmode-1 {
+	mix-blend-mode: plus-lighter;
+}
+
+/* Footer logo styling */
+.footer-logo {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle; /* Align with text */
+  margin-right: 6px;
+  margin-bottom: 3px;
+}
+
+/* Red heart color */
+.heart {
+  color: red;
+}
