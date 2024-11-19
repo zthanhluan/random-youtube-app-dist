@@ -25,8 +25,8 @@ export default function (text) {
   // Create the animation timeline
   const animationTimeline = gsap.timeline({
     defaults: {
-      duration: 2,
-      ease: 'expo',
+      duration: 4, // Increased duration for smoother animation
+      ease: 'power2.out', // Subtle easing function
     },
     // On every update, set the appropriate attributes in the SVG filters
     onUpdate: () => {
@@ -41,13 +41,13 @@ export default function (text) {
       primitiveValues,
       {
         startAt: {
-          stdDeviation: 20, // Start with a strong blur
-          scale: 100, // Start with a high displacement
-          baseFrequency: 0.1, // Start with a higher turbulence frequency
+          stdDeviation: 5, // Subtle initial blur
+          scale: 20, // Lower displacement
+          baseFrequency: 0.02, // Gentle turbulence frequency
         },
         stdDeviation: 0,
         scale: 0,
-        baseFrequency: 0.05,
+        baseFrequency: 0.01,
       },
       0
     )
@@ -65,4 +65,3 @@ export default function (text) {
   // Play the timeline immediately
   animationTimeline.play();
 }
-
