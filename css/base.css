@@ -145,3 +145,17 @@ body {
 .heart {
   color: red;
 }
+
+/* Responsive styles on smaller screens */
+@media (max-width: 768px) {
+	.content {
+		display: none;
+	}
+	.content--full {
+		display: none;
+		min-height: 0vh;
+	}
+	.content h2 {
+		display: none;
+	}
+}
