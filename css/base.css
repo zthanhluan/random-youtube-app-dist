@@ -5,7 +5,7 @@
 }
 
 :root {
-	font-size: 12px;
+	font-size: 10px;
   --color-text: #cfc9cb;
   --color-text-1: #9dcbce;
   --color-text-2: #d79fb0;
@@ -18,6 +18,7 @@
 
 html, body {
 	width: 100vw;
+	height: 100vh;
 	overflow: hidden;
 }
 
@@ -31,7 +32,7 @@ body {
 }
 
 .content {
-	padding: var(--page-padding);
+	padding: 0px;
 	display: grid;
 	position: relative;
 	font-size: clamp(1.5rem, 7vw, 3.5rem);
@@ -45,7 +46,7 @@ body {
 }
 
 .content--full {
-	min-height: 4vh;
+	min-height: 6vh;
 	display: grid;
 }
 
@@ -53,6 +54,7 @@ body {
 	margin: 0;
 	line-height: 0.1;
 	align-self: center;
+	font-weight: 100;
 }
 
 .font-1 {
@@ -69,7 +71,7 @@ body {
 
 .font-2-2 {
 	font-family: "the-seasons", sans-serif;
-	font-weight: 50;
+	font-weight: 100;
 }
 
 .font-2-1 {
@@ -94,7 +96,7 @@ body {
 }
 
 .size-small {
-	font-size: clamp(1rem, 3vw, 2rem);
+	font-size: clamp(1.2rem, 1vw, 2.5rem);
 }
 
 .size-small-1 {
@@ -142,4 +144,18 @@ body {
 /* Red heart color */
 .heart {
   color: red;
+}
+
+/* Responsive styles on smaller screens */
+@media (max-width: 768px) {
+	.content {
+		display: none;
+	}
+	.content--full {
+		display: none;
+		min-height: 0vh;
+	}
+	.content h2 {
+		display: none;
+	}
 }
