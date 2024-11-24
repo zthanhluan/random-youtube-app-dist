@@ -1,23 +1,4 @@
 [
-  "videoIds-Podcast.json",
-  "videoIds-All.json",
-  "videoIds-Comedy.json",
-  "videoIds-Education.json",
-  "videoIds-English.json",
-  "videoIds-EnglishLT.json",
-  "videoIds-Food.json",
-  "videoIds-Game.json",
-  "videoIds-mostviewed.json",
-  "videoIds-Movies.json",
-  "videoIds-Music.json",
-  "videoIds-MusicVevo.json",
-  "videoIds-newest.json",
-  "videoIds-News.json",
-  "videoIds-PlaylistMotivation.json",
-  "videoIds-Sport.json",
-  "videoIds-Tech.json",
-  "videoIds-Test.json",
-  "videoIds-TOPSONG2024.json",
-  "videoIds-Travel.json",
-  "videoIds-Trend.json"
+  "videoIds-EnglishListening.json",
+  "videoIds-EnglishSpeaking.json"
 ]
