@@ -3,9 +3,7 @@
   "videoIds-EnglishAll.json",
   "videoIds-EnglishSpeaking.json",
   "videoIds-EnglishListening.json",
-  "videoIds-EnglishPodcast.json",
-  "videoIds-EnglishTOEIC.json",
-  "videoIds-EnglishIELTS.json",
-  "videoIds-EnglishAPTIS.json",
-  "videoIds-EnglishVSTEP.json"
+  "videoIds-EnglishPodcasts.json",
+  "videoIds-TOEIC.json",
+  "videoIds-IELTS.json"
 ]

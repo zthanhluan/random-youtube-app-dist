@@ -4,7 +4,7 @@ import random
 
 def generate_file_index():
     # Specify the files to exclude
-    exclude_files = {"fileIndex.json", "manifest.json"}
+    exclude_files = {"fileIndex.json", "manifest.json", "videoIds-TOPSONG2024.json"}
     
     # Get all .json files in the current folder except the excluded ones
     json_files = [
