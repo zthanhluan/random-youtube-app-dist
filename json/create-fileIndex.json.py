@@ -12,7 +12,7 @@ def generate_file_index():
     ]
     
     # Write the JSON file
-    with open("public/fileIndex.json", "w") as f:
+    with open("public/json/fileIndex.json", "w") as f:
         json.dump(json_files, f, indent=2)
 
     print(f"File index created with {len(json_files)} files, excluding {exclude_files}.")
