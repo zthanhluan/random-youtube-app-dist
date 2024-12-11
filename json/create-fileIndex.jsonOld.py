@@ -45,10 +45,10 @@ def merge_json_files():
     random.shuffle(video_id_list)
 
     # Write the shuffled list to videoIds-EnglishAll.json
-    with open("videoIds-EnglishAll.json", "w") as f:
+    with open("videoIds-All.json", "w") as f:
         json.dump(video_id_list, f, indent=2)
 
-    print(f"videoIds-EnglishAll.json created with {len(video_id_list)} unique video IDs.")
+    print(f"videoIds-All.json created with {len(video_id_list)} unique video IDs.")
 
 if __name__ == "__main__":
     # Step 1: Generate fileIndex.json
