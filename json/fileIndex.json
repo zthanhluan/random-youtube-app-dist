@@ -1,4 +1,5 @@
 [
+  "videoIds-BestEDMSong.json",
   "videoIds-BestVEVO2024.json",
   "videoIds-BestVietnameseSongs2024.json",
   "videoIds-EnglishListening.json",
@@ -10,5 +11,6 @@
   "videoIds-Music.json",
   "videoIds-PlaylistMotivation.json",
   "videoIds-TOEIC.json",
-  "videoIds-TOPSONG2024.json"
+  "videoIds-TOPSONG2024.json",
+  "videoIds-FrequencySong.json"
 ]
